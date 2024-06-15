@@ -7,7 +7,7 @@ import CoreMediaIO
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     override init() {
-        client = ChatClient(name: "cocoatype")
+        client = ChatClient(name: "adamwulf")
         super.init()
     }
 
