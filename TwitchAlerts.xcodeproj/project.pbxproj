@@ -62,6 +62,7 @@
 		C5893C8F2C1D714100E4C280 /* TwitchChat in Frameworks */ = {isa = PBXBuildFile; productRef = C5893C8E2C1D714100E4C280 /* TwitchChat */; };
 		C5893C912C1D714100E4C280 /* TwitchChatAppKit in Frameworks */ = {isa = PBXBuildFile; productRef = C5893C902C1D714100E4C280 /* TwitchChatAppKit */; };
 		C5893C942C1D721900E4C280 /* Follow.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5893C932C1D721800E4C280 /* Follow.wav */; };
+		C5893C962C1D77D300E4C280 /* Follow-alt.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5893C952C1D77D300E4C280 /* Follow-alt.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -134,6 +135,7 @@
 		04F090D125E0BBFA00966C1E /* AlertWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWindow.swift; sourceTree = "<group>"; };
 		04F090D525E0CBF700966C1E /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
 		C5893C932C1D721800E4C280 /* Follow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Follow.wav; sourceTree = "<group>"; };
+		C5893C952C1D77D300E4C280 /* Follow-alt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Follow-alt.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +328,7 @@
 		C5893C922C1D721200E4C280 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				C5893C952C1D77D300E4C280 /* Follow-alt.wav */,
 				C5893C932C1D721800E4C280 /* Follow.wav */,
 			);
 			path = Sounds;
@@ -400,6 +403,7 @@
 				04F090BB25E0B48600966C1E /* Assets.xcassets in Resources */,
 				04389E83262D692B004D49B7 /* Shower.sks in Resources */,
 				04389E84262D692B004D49B7 /* Cannon.sks in Resources */,
+				C5893C962C1D77D300E4C280 /* Follow-alt.wav in Resources */,
 				04389E82262D692B004D49B7 /* Actions.sks in Resources */,
 				04389E85262D692B004D49B7 /* GameScene.sks in Resources */,
 				043C28D4265B44F20054A5A8 /* TwitchAlerts.sdef in Resources */,

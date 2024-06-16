@@ -23,7 +23,7 @@ struct ChatClient {
         }
     }
 
-    private let ignoredChatters = ["Nightbot"]
+    private let ignoredChatters = ["Nightbot", "developerduck"]
 
     private let name: String
 }
