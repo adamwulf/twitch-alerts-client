@@ -16,7 +16,9 @@ enum ChatMessageRenderer {
 
         downloadedEmotes.forEach { emote in
             let nsRange = NSRange(location: emote.range.lowerBound, length: emote.range.count)
-            attributedString.replaceCharacters(in: nsRange, with: NSAttributedString(attachment: emote.textAttachment))
+            if nsRange.lowerBound >= 0 && nsRange.upperBound <= attributedString.length {
+                attributedString.replaceCharacters(in: nsRange, with: NSAttributedString(attachment: emote.textAttachment))
+            }
         }
 
         return attributedString
